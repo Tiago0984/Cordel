@@ -57,9 +57,9 @@ section{
     background-size: cover;
 }
 .p2{
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(0, 0, 0, 0.252);
     color: white;
-    margin-right: 55%;
+    margin-right: 15em;
     padding: 10px;
 }
 .p3{
@@ -76,7 +76,7 @@ section{
 .p5{
     background-color: rgba(0, 0, 0, 0.363);
     color: white;
-    margin-right: 55%;
+    margin-right: 15em;
     padding: 5px;
 }
 .seção5 >p{
