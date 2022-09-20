@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+html, body{
+    min-height: 98vh;
+}
+
 header{
     background-color: black;
     color: white;
@@ -17,7 +21,7 @@ header{
 }
 
 header h1{
-    font-size: 7em;
+    font-size: 8vw;
     font-family: var(--fonte2);
 }
 header p{
@@ -35,13 +39,14 @@ header a:hover{
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
 }
 section{
+    font-size: 3.5vw;
     font-family: var(--fonte3);
-    padding: 30px;
-    font-size: 3.2em;
-    line-height: 55px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 50px;
 }
 .seção1{
     padding-bottom: 10%;
@@ -56,6 +61,9 @@ section{
     color: white;
     margin-right: 55%;
     padding: 10px;
+}
+.p3{
+    padding-bottom: 8%;
 }
 .seção3{
     padding-top: 10%;
